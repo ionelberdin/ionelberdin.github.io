@@ -3,4 +3,8 @@ body{
     margin: 0;
 }
 
+abbr{
+  text-decoration: none;
+  border-bottom: 1px dashed #666;
+
 #wrapper { margin: 0 auto; }
