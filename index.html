@@ -1,309 +1,309 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Ion Elberdin</title>
-		<meta name="description" content="Ingeniero, me encanta crear cosas que funcionen." />
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-		
-		<link href="css/dot-luv/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
-		<link href="css/common.css" rel="stylesheet" />
-		
-		<script src="js/jquery-1.10.2.js"></script>
-		<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-		
-		<script>
-		
-		// JQuery
-		$(function() {
+    <head>
+        <title>Ion Elberdin</title>
+        <meta name="description" content="Ingeniero, me encanta crear cosas que funcionen." />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+        
+        <link href="css/dot-luv/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+        <link href="css/common.css" rel="stylesheet" />
+        
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+        
+        <script>
+        
+        // JQuery
+        $(function() {
 
-			$( "#content" ).tabs({
-				active: 0,
-			});
-			
-			var icons = {
-				header: "ui-icon-circle-arrow-e",
-				activeHeader: "ui-icon-circle-arrow-s"
-			};
-			
-			$( ".ui-accordion" ).accordion({
-				active: false,
-				icons: icons,
-				collapsible: true,
-				heightStyle: "content"
-			});
-			$( "#contact-menu" ).menu();
-		});
-		
-		// Google Analytics
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            $( "#content" ).tabs({
+                active: 0,
+            });
+            
+            var icons = {
+                header: "ui-icon-circle-arrow-e",
+                activeHeader: "ui-icon-circle-arrow-s"
+            };
+            
+            $( ".ui-accordion" ).accordion({
+                active: false,
+                icons: icons,
+                collapsible: true,
+                heightStyle: "content"
+            });
+            $( "#contact-menu" ).menu();
+        });
+        
+        // Google Analytics
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-18628353-1', 'ionelberdin.com');
-		  ga('send', 'pageview');
-		 
-		  // UserAgent
-		  function isMobile() {
-			var index = navigator.appVersion.indexOf("Mobile");
-			return (index > -1);
-		  }
-		  
-		  var fileref=document.createElement("link");
-		  fileref.setAttribute("rel", "stylesheet");
-		  fileref.setAttribute("type", "text/css");
-		  
-		  if(isMobile()){
-			  fileref.setAttribute("href", "css/mobile.css");
-		  }else{
-			  fileref.setAttribute("href", "css/bigscreen.css");
-		  }
-		  
-		  document.getElementsByTagName("head")[0].appendChild(fileref);
-		  //loadjscssfile("mystyle.css", "css") ////dynamically load and add this .css file
-		</script>
-	</head>
-	
-	<body>
-		<div id="wrapper" class="ui-widget-content">
-			
-			<div id="content">
-				
-				<ul>
-					<li><a href="#info">info</a></li>
-					<li><a href="#webs">webs</a></li>
-					<li><a href="#contact">contacto</a></li>
-					<li><a href="#friends">amigos</a></li>
-					<li><a href="#courses">cursos</a></li>
-				</ul>
-					
-				<div id="info">
-					<p>Soy Ingeniero Aeronáutico de la <a href="http://www.aero.upm.es/">ETSIA</a> (Universidad Politécnica de Madrid).</p>
-					<p>Realicé el Proyecto Fin de Carrera en el <a href="http://webserver.dmt.upm.es/zope/DMT">departamento de Motopropulsión y Termofluidodinámica</a>, si quieres le puedes echar un vistazo al resumen:
-					<ul><li><a href="https://dl.dropboxusercontent.com/u/3766526/pfc-ionelberdin-resumen.pdf">Optimización Térmica de Deflectores de Esquina...</a></li></ul></p>
-					
-					<p>Acutalmente estoy al acecho de un puesto de trabajo en el que pueda aportar mi valor como ingeniero. Lo que más me interesa es el I+D+i y el Diseño de producto.</p>
+          ga('create', 'UA-18628353-1', 'ionelberdin.com');
+          ga('send', 'pageview');
+         
+          // UserAgent
+          function isMobile() {
+            var index = navigator.appVersion.indexOf("Mobile");
+            return (index > -1);
+          }
+          
+          var fileref=document.createElement("link");
+          fileref.setAttribute("rel", "stylesheet");
+          fileref.setAttribute("type", "text/css");
+          
+          if(isMobile()){
+              fileref.setAttribute("href", "css/mobile.css");
+          }else{
+              fileref.setAttribute("href", "css/bigscreen.css");
+          }
+          
+          document.getElementsByTagName("head")[0].appendChild(fileref);
+          //loadjscssfile("mystyle.css", "css") ////dynamically load and add this .css file
+        </script>
+    </head>
+    
+    <body>
+        <div id="wrapper" class="ui-widget-content">
+            
+            <div id="content">
+                
+                <ul>
+                    <li><a href="#info">info</a></li>
+                    <li><a href="#webs">webs</a></li>
+                    <li><a href="#contact">contacto</a></li>
+                    <li><a href="#friends">amigos</a></li>
+                    <li><a href="#courses">cursos</a></li>
+                </ul>
+                    
+                <div id="info">
+                    <p>Soy Ingeniero Aeronáutico de la <a href="http://www.aero.upm.es/">ETSIA</a> (Universidad Politécnica de Madrid).</p>
+                    <p>Realicé el Proyecto Fin de Carrera en el <a href="http://webserver.dmt.upm.es/zope/DMT">departamento de Motopropulsión y Termofluidodinámica</a>, si quieres le puedes echar un vistazo al resumen:
+                    <ul><li><a href="https://dl.dropboxusercontent.com/u/3766526/pfc-ionelberdin-resumen.pdf">Optimización Térmica de Deflectores de Esquina...</a></li></ul></p>
+                    
+                    <p>Acutalmente estoy al acecho de un puesto de trabajo en el que pueda aportar mi valor como ingeniero. Lo que más me interesa es el I+D+i y el Diseño de producto.</p>
 
-					<p>Mientras tanto sigo formándome en temas que me interesan como la Inteligencia Artificial, diversos lenguajes de programación e idiomas.</p>
-					
-					<div id="learning-accordion" class="ui-accordion">
-					<h3 class="ui-accordion-header">Formación</h3>
-						<div class="ui-accordion-content">
-							<p>Aparte de la carrera de Ingeniería Aeronáutica, también he realizado cursos de:
-							<div id="languages-accordion" class="ui-accordion">
-							<h4 class="ui-accordion-header">Idiomas</h4>
-							<div class="ui-accordion-content">
-							<ul><li>Inglés (EOI + CAE)</li></ul>
-							</div>
+                    <p>Mientras tanto sigo formándome en temas que me interesan como la Inteligencia Artificial, diversos lenguajes de programación e idiomas.</p>
+                    
+                    <div id="learning-accordion" class="ui-accordion">
+                    <h3 class="ui-accordion-header">Formación</h3>
+                        <div class="ui-accordion-content">
+                            <p>Aparte de la carrera de Ingeniería Aeronáutica, también he realizado cursos de:
+                            <div id="languages-accordion" class="ui-accordion">
+                            <h4 class="ui-accordion-header">Idiomas</h4>
+                            <div class="ui-accordion-content">
+                            <ul><li>Inglés (EOI + CAE)</li></ul>
+                            </div>
 
-							<h4 class="ui-accordion-header">Software Técnico</h4>
-							<div class="ui-accordion-content">
-							<ul><li>Catia</li>
-							<li>Nastran/Patran</li>
-							<li>OpenFOAM</li>
-							<li>STK</li>
-							</ul>
-							</div>
+                            <h4 class="ui-accordion-header">Software Técnico</h4>
+                            <div class="ui-accordion-content">
+                            <ul><li>Catia</li>
+                            <li>Nastran/Patran</li>
+                            <li>OpenFOAM</li>
+                            <li>STK</li>
+                            </ul>
+                            </div>
 
-							<h4 class="ui-accordion-header">Lenguajes de programación</h4>
-							<div class="ui-accordion-content">
-							<ul><li>Python</li>
-							<li>C/C++</li>
-							<li>C#</li>
-							<li>Java</li>
-							<li>Fortran</li>
-							<li>R</li>
-							<li>Matlab</li>
-							<li>HTML/PHP/CSS/MySQL/Javascript</li></ul>
-							</p>
-							</div>
-							</div>
-						</div>
-					</div>
+                            <h4 class="ui-accordion-header">Lenguajes de programación</h4>
+                            <div class="ui-accordion-content">
+                            <ul><li>Python</li>
+                            <li>C/C++</li>
+                            <li>C#</li>
+                            <li>Java</li>
+                            <li>Fortran</li>
+                            <li>R</li>
+                            <li>Matlab</li>
+                            <li>HTML/PHP/CSS/MySQL/Javascript</li></ul>
+                            </p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
 
-					<p>Entre mis aficiones se encuentran:</p>
-					<div id="hobbies-accordion" class="ui-accordion">
-						<h3 class="ui-accordion-header">Programar</h3>
-						<div class="ui-accordion-content">
-							<p>Empecé desarrollando páginas web con PHP/HTML/Javascript y a través de Fortran y Matlab salté a solucionar problemas de ingeniería.</p>
-							<p>Gracias a Guillem descubrí Python, y desde entonces es mi herramienta preferida para todo tipo de cometidos.</p>
-						</div>
+                    <p>Entre mis aficiones se encuentran:</p>
+                    <div id="hobbies-accordion" class="ui-accordion">
+                        <h3 class="ui-accordion-header">Programar</h3>
+                        <div class="ui-accordion-content">
+                            <p>Empecé desarrollando páginas web con PHP/HTML/Javascript y a través de Fortran y Matlab salté a solucionar problemas de ingeniería.</p>
+                            <p>Gracias a Guillem descubrí Python, y desde entonces es mi herramienta preferida para todo tipo de cometidos.</p>
+                        </div>
 
-						<h3 class="ui-accordion-header">El deporte en general</h3>
-						<div class="ui-accordion-content">
-							<p>Jugué durante más de una década al <strong>hockey sobre patines</strong> e incluso llegué a competir a nivel nacional con el CP Alcorcón.</p>
-							<p>Una lesión de hombro me obligó a colgar los patines y desde entonces juego al <strong>tenis</strong>, deporte que también me apasiona y con el que disfruto a lo grande.</p>
-							<p>Últimamente ando corto de tiempo, así que he dejado un poco de lado el tenis y voy a la piscina a nadar, ya que me permite mantenerme en forma dedicándole menos horas a la semana.</p>
-						</div>
-							
-						<h3 class="ui-accordion-header">Viajar por el mundo</h3>
-						<div class="ui-accordion-content">
-							<p>Una de las mejores experiencias que he vivido fue #ElViajedeTomaka. En 2010 <strong>Alex</strong> (mi mejor amigo de toda la vida) y yo nos fuimos desde Madrid a <em>Mongolia</em> en un todoterreno portugués del 86 (como nosotros), al que llamamos <strong>Tomaka</strong>.</p>
-							<p>Las navidades de 2014 las he pasado en <em>Mauricio</em>, el país de <strong>Kelly</strong> (mi mujer). Es un lugar fantástico en el que la vida va a otro ritmo. Las playas, la naturaleza y su gente me han maravillado hasta tal punto que no descarto que nos vayamos a vivir allí.</p>
-							<p>¿Próximo destino? Ya se verá :)</p>
-						</div>
-							
-						<h3 class="ui-accordion-header">La lectura, el cine y las series</h3>
-						<div class="ui-accordion-content">
-							<p>Otra forma de viajar, y además más barata.</p>
-						</div>
-						<h3 class="ui-accordion-header">Fotografiar lo que me rodea</h3>
-						<div class="ui-accordion-content">
-							<p>De vez en cuando saco mi reflex a pasear y disparo a
-								cualquier cosa que se me cruce.</p>
-							<p>De vez en cuando subo alguna foto a <a href="https://500px.com/ionelberdin">mi perfil de 500px</a>.</p>
-						</div>
-					</div>
-					  
-				</div><!-- id="info" -->
-					
-				<div id="webs" class="ui-accordion">
-					<h3 class="ui-accordion-header">MyLittleMomó</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://mylittlemomo.es">http://mylittlemomo.es</a></p>
-						<img src="img/mylittlemomo.png" title="Web de MyLittleMomó" />
-						<p>El mejor salón de manicurás de Madrid, situado frente al parque del Retiro en pleno barrio de Salamanca.</p>
-						<p>La web consta, a parte del contenido informativo, de un sistema de gestión de reservas que permite a los usuarios realizar citas, consultar su estado y borrarlas.</p>
-						<p>Las ilustraciones son de mi gran amigo <a href="http://www.behance.net/gallery/MyLittleMomo/4720041">Emilio</a>, una de las tres patas de la mesa <a href="http://elenigmadelafruta.com">ElEnigmadelaFruta</a>.</p>
-						<p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
-						<p>Bases de datos: MySQL.</p>
-					</div>
-				
-					<h3 class="ui-accordion-header">RaveMarket</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://ravemarket.es">http://theravemarket.com</a></p>
-						<img src="img/ravemarket.png" title="Web de RaveMarket" />
-						<p>RaveMarket es más que un mercado de segunda mano. Es una evolución que lo transforma en una experiencia social única a través de: música en directo, bar, concursos y otros eventos aleatorios que aseguran la diversión y el buen rollo.</p>
-						<p>Si tienes tu casa llena de cosas a las que no das uso, júntalas en una caja y dalas una segunda oportunidad con RaveMarket!!! Además te sacarás algo de dinerillo, que nunca está de más ;)</p>
-						<p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
-						<p>Bases de datos: MySQL.</p>
-					</div>
-					
-					<h3 class="ui-accordion-header">PacoNavarro</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://paconavarrophoto.com">http://paconavarrophoto.com</a></p>
-						<img src="img/paconavarro.png" title="Web de PacoNavarro" />
-						<p>La web de mi tío Paco Navarro, fotógrafo profesional ganador del premio planeta que ha retratado a más gente de la que me atreva a nombrar.</p>
-						<p>Ya no sé por qué versión vamos en esta web. Fue la primera que hice cuando me iniciaba en el mundo de la programación, y por aquel entonces recuerdo que utilicé Flash. Desde entonces mucho ha llovido.</p>
-						<p>En ella, Paco muestra sus intereses, los trabajos más relevantes del momento, y también algunos clásicos de hace años.</p>
-						<p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
-						<p>Bases de datos: MySQL.</p>
-					</div>
-				</div><!-- id="webs"-->
+                        <h3 class="ui-accordion-header">El deporte en general</h3>
+                        <div class="ui-accordion-content">
+                            <p>Jugué durante más de una década al <strong>hockey sobre patines</strong> e incluso llegué a competir a nivel nacional con el CP Alcorcón.</p>
+                            <p>Una lesión de hombro me obligó a colgar los patines y desde entonces juego al <strong>tenis</strong>, deporte que también me apasiona y con el que disfruto a lo grande.</p>
+                            <p>Últimamente ando corto de tiempo, así que he dejado un poco de lado el tenis y voy a la piscina a nadar, ya que me permite mantenerme en forma dedicándole menos horas a la semana.</p>
+                        </div>
+                            
+                        <h3 class="ui-accordion-header">Viajar por el mundo</h3>
+                        <div class="ui-accordion-content">
+                            <p>Una de las mejores experiencias que he vivido fue #ElViajedeTomaka. En 2010 <strong>Alex</strong> (mi mejor amigo de toda la vida) y yo nos fuimos desde Madrid a <em>Mongolia</em> en un todoterreno portugués del 86 (como nosotros), al que llamamos <strong>Tomaka</strong>.</p>
+                            <p>Las navidades de 2014 las he pasado en <em>Mauricio</em>, el país de <strong>Kelly</strong> (mi mujer). Es un lugar fantástico en el que la vida va a otro ritmo. Las playas, la naturaleza y su gente me han maravillado hasta tal punto que no descarto que nos vayamos a vivir allí.</p>
+                            <p>¿Próximo destino? Ya se verá :)</p>
+                        </div>
+                            
+                        <h3 class="ui-accordion-header">La lectura, el cine y las series</h3>
+                        <div class="ui-accordion-content">
+                            <p>Otra forma de viajar, y además más barata.</p>
+                        </div>
+                        <h3 class="ui-accordion-header">Fotografiar lo que me rodea</h3>
+                        <div class="ui-accordion-content">
+                            <p>De vez en cuando saco mi reflex a pasear y disparo a
+                                cualquier cosa que se me cruce.</p>
+                            <p>De vez en cuando subo alguna foto a <a href="https://500px.com/ionelberdin">mi perfil de 500px</a>.</p>
+                        </div>
+                    </div>
+                      
+                </div><!-- id="info" -->
+                    
+                <div id="webs" class="ui-accordion">
+                    <h3 class="ui-accordion-header">MyLittleMomó</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://mylittlemomo.es">http://mylittlemomo.es</a></p>
+                        <img src="img/mylittlemomo.png" title="Web de MyLittleMomó" />
+                        <p>El mejor salón de manicurás de Madrid, situado frente al parque del Retiro en pleno barrio de Salamanca.</p>
+                        <p>La web consta, a parte del contenido informativo, de un sistema de gestión de reservas que permite a los usuarios realizar citas, consultar su estado y borrarlas.</p>
+                        <p>Las ilustraciones son de mi gran amigo <a href="http://www.behance.net/gallery/MyLittleMomo/4720041">Emilio</a>, una de las tres patas de la mesa <a href="http://elenigmadelafruta.com">ElEnigmadelaFruta</a>.</p>
+                        <p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
+                        <p>Bases de datos: MySQL.</p>
+                    </div>
+                
+                    <h3 class="ui-accordion-header">RaveMarket</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://ravemarket.es">http://theravemarket.com</a></p>
+                        <img src="img/ravemarket.png" title="Web de RaveMarket" />
+                        <p>RaveMarket es más que un mercado de segunda mano. Es una evolución que lo transforma en una experiencia social única a través de: música en directo, bar, concursos y otros eventos aleatorios que aseguran la diversión y el buen rollo.</p>
+                        <p>Si tienes tu casa llena de cosas a las que no das uso, júntalas en una caja y dalas una segunda oportunidad con RaveMarket!!! Además te sacarás algo de dinerillo, que nunca está de más ;)</p>
+                        <p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
+                        <p>Bases de datos: MySQL.</p>
+                    </div>
+                    
+                    <h3 class="ui-accordion-header">PacoNavarro</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://paconavarrophoto.com">http://paconavarrophoto.com</a></p>
+                        <img src="img/paconavarro.png" title="Web de PacoNavarro" />
+                        <p>La web de mi tío Paco Navarro, fotógrafo profesional ganador del premio planeta que ha retratado a más gente de la que me atreva a nombrar.</p>
+                        <p>Ya no sé por qué versión vamos en esta web. Fue la primera que hice cuando me iniciaba en el mundo de la programación, y por aquel entonces recuerdo que utilicé Flash. Desde entonces mucho ha llovido.</p>
+                        <p>En ella, Paco muestra sus intereses, los trabajos más relevantes del momento, y también algunos clásicos de hace años.</p>
+                        <p>Lenguajes utilizados: PHP, Javascript, HTML5 y CSS3.</p>
+                        <p>Bases de datos: MySQL.</p>
+                    </div>
+                </div><!-- id="webs"-->
 
 
-				<div id="contact">
-					<div>
-					<ul id="contact-menu">
-						<li><a href="https://docs.google.com/forms/d/1ds1uY5izOq1Q5S6rK6pP9Kb1cImkzi8410sVAd7OTGo/viewform" title="¿Quieres escribirme? Rellena el siguiente formulario y te contestaré en cuanto pueda.">Formulario de contacto de Google</a></li>
-						<li>
-							<a href="http://www.linkedin.com/in/ionelberdin/en" target="linkedin" title="Perfil de Ion Elberdin en Linkedin">
-								Perfil en Linkedin
-							</a>
-						</li>
-						<li>
-							<a href="http://twitter.com/ionelberdin" target="twitter" title="Perfil de Ion Elberdin en Twitter">
-								Chorradas en Twitter
-							</a>
-						</li>
-						<li>
-							<a href="https://500px.com/ionelberdin">Fotos en 500px</a>
-						</li>
-						<li>
-							<a href="https://github.com/ionelberdin/" target="github" title="Perfil de Ion Elberdin en Github">
-								Código en Github
-							</a>
-						</li>
-					</ul>
-					</div>
-				</div><!-- id="contact"-->  
-				
-				
-				<div id="friends">
-					<div id="friends-accordion" class="ui-accordion">
-					<h3 class="ui-accordion-header">GuillemBorrell</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://guillemborrell.es">http://guillemborrell.es</a><br />
-						<a href="http://twitter.com/guillemborrell">@guillemborrell</a></p>
-						<p>Siempre metido en <a href="http://www.guillemborrell.es/article/ahBzfmd1aWxsZW1ib3JyZWxschQLEgdBcnRpY2xlGICAgICw7YYKDA" title="Supercomputación, bah! Eso está chupado!!!">asuntos turbulentos</a>, es una de las pocas personas capaces de hacer mucho con poco.</p>
-						<p>Síguele en <a href="http://twitter.com/guillemborrell">Twitter</a>! Síguele en su <a href="http://guillemborrell.es">blog</a>! Incluso síguele por la calle si te lo cruzas, pues si consigues invitarle a una cerveza, seguro que te deja boquiabierto con cualquier tema de conversación que le saques.</p>
-					</div>
-				
-					<h3 class="ui-accordion-header">ElEnigmadelaFruta</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://elenigmadelafruta.com">http://elenigmadelafruta.com</a><br />
-						<a href="http://twitter.com/eedlf">@eedlf</a></p>
-						<p>Son LA PERA!!!</p>
-						<p>Artistacos hasta la médula, Emilio, Fruta y Pere son lo más grande que yo he visto en acción a la hora de inventar, desarrollar, desvariar, descontrolar...</p>
-						<p>Me encantan sus iniciativas y por supuesto os los recomiendo encarecidamente!!!</p>
-						<p>A parte de ElEnigmadelaFruta, también tienen en marcha <a href="http://elmelonmolon.com">ElMelónMolón</a>, con el que se dedican a hacer webs molonas visualmente increíbles. Más que competencia les considero aliados, porque siempre que he estado hasta arriba de trabajo, les he derivado proyectos que me salían y siempre lo han bordado.</p>
-					</div>
-					
-					<h3 class="ui-accordion-header">FernandoNavarro</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://www.fisioterapiafernandonavarro.com/">http://www.fisioterapiafernandonavarro.com/</a></p>
-						<p>Fisioterapeuta de confianza al que he recurrido siempre que me he lesionado.</p>
-						<p>Gracias a él he recuperado esguinces de tobillo, microrroturas musculares, luxaciones de hombro...</p>
-						<p>Su centro de fisioterapia está en Madrid cerca del metro de Velazquez y trabaja con las últimas tecnologías que salen al mercado.</p>
-						<p>De hecho, es de los pocos que ya posee <a href="http://www.fisioterapiafernandonavarro.com/Indiba.html">INDIBA</a>.</p>
-					</div>
-					
-					<h3 class="ui-accordion-header">RasdeRashid</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://rasderashid.com/">http://rasderashid.com/</a><br />
-						<a href="http://twitter.com/rasderashid">@rasderashid</a></p>
-						<p>Rashid es magia.</p>
-						<p>Con solo unos trazos sobre el lienzo consigue que te creas la escena que te muestra.</p>
-						<p>Una vez incluso me hizo bostezar con un cuadro en el que se veía a una mujer de espaldas haciendo lo propio. Mira que son contagiosos los bostezos!!! xD</p>
-					</div>
-					
-					<h3 class="ui-accordion-header">MercePeris</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://merceperis.wordpress.com/">http://merceperis.wordpress.com/</a></p>
-						<p>En su rincón del delirio, Merce comparte relatos 100% originales.</p>
-					</div>
-					
-					<h3 class="ui-accordion-header">DiFenders</h3>
-					<div class="ui-accordion-content">
-						<p><a href="http://difendersdjs.com/">http://difendersdjs.com/</a><br />
-							<a href="http://instagram.com/difendersdjs">instagram</a></p>
-						<p>Los DJs con más barba y buen rollo del panorama nacional.</p>
-						<p>Apunta sus próximas actuaciones en tu agenda!!</p>
-					</div>
-					
-					</div><!-- id="friends-accordion"-->
-					<br />
-					<div class="ui-state-highlight ui-corner-all"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>Si te conozco y tienes una web chula que no haya incluído en esta lista, avísame!!!</div>
-				</div><!-- id="friends"-->
-				
-				<div id="courses">
-					<p>Tanto me apasiona aprender como enseñar, e intento hacerlo lo más ameno posible dándole más importancia al razonamiento que a la memorización.</p>
-					<div id="courses-accordion" class="ui-accordion">
-					<h3 class="ui-accordion-header">Python</h3>
-					<div class="ui-accordion-content">
-						<p>Sin duda alguna mi lenguaje de programación favorito. Es intuitivo, sencillo, dinámico y por tanto permite desarrollar prototipos a una velocidad insuperable.</p>
-						<p>A través de la <a href="http://delegacion.etsiae.upm.es/">Delegación de Alumnos de la ETSIAE</a> doy un curso orientado a resolver problemas de ingeniería.</p>
-						<p>¿Tienes feedback?
-						<ul><li><a href="https://docs.google.com/forms/d/1WlAaLUj3e8uIoOoQhq0_3i8N5BgJ_HQiQZeFN5Qk18o/viewform?usp=send_form">Encuesta curso abril 2015</a></li></ul>
-						</p>
-					</div>
-				
-					<h3 class="ui-accordion-header">HP50g</h3>
-					<div class="ui-accordion-content">
-						<p>Esta calculadora es una gran herramienta para resolver problemas de ingeniería complejos durante los exámenes en los que no tienes acceso a un ordenador más potente.</p>
-						<p>A través de su programación en <a href"http://en.wikipedia.org/wiki/Reverse_Polish_notation" title="Reverse Polish Notation">RPN</a> se pueden desarrollar rutinas que te ayuden a ahorrar tiempo en la resolución de problemas. Un desahogo que permite afrontar los exámenes con algo más de tranquilidad.</p>
-					</div>
+                <div id="contact">
+                    <div>
+                    <ul id="contact-menu">
+                        <li><a href="https://docs.google.com/forms/d/1ds1uY5izOq1Q5S6rK6pP9Kb1cImkzi8410sVAd7OTGo/viewform" title="¿Quieres escribirme? Rellena el siguiente formulario y te contestaré en cuanto pueda.">Formulario de contacto de Google</a></li>
+                        <li>
+                            <a href="http://www.linkedin.com/in/ionelberdin/en" target="linkedin" title="Perfil de Ion Elberdin en Linkedin">
+                                Perfil en Linkedin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/ionelberdin" target="twitter" title="Perfil de Ion Elberdin en Twitter">
+                                Chorradas en Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://500px.com/ionelberdin">Fotos en 500px</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ionelberdin/" target="github" title="Perfil de Ion Elberdin en Github">
+                                Código en Github
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div><!-- id="contact"-->  
+                
+                
+                <div id="friends">
+                    <div id="friends-accordion" class="ui-accordion">
+                    <h3 class="ui-accordion-header">GuillemBorrell</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://guillemborrell.es">http://guillemborrell.es</a><br />
+                        <a href="http://twitter.com/guillemborrell">@guillemborrell</a></p>
+                        <p>Siempre metido en <a href="http://www.guillemborrell.es/article/ahBzfmd1aWxsZW1ib3JyZWxschQLEgdBcnRpY2xlGICAgICw7YYKDA" title="Supercomputación, bah! Eso está chupado!!!">asuntos turbulentos</a>, es una de las pocas personas capaces de hacer mucho con poco.</p>
+                        <p>Síguele en <a href="http://twitter.com/guillemborrell">Twitter</a>! Síguele en su <a href="http://guillemborrell.es">blog</a>! Incluso síguele por la calle si te lo cruzas, pues si consigues invitarle a una cerveza, seguro que te deja boquiabierto con cualquier tema de conversación que le saques.</p>
+                    </div>
+                
+                    <h3 class="ui-accordion-header">ElEnigmadelaFruta</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://elenigmadelafruta.com">http://elenigmadelafruta.com</a><br />
+                        <a href="http://twitter.com/eedlf">@eedlf</a></p>
+                        <p>Son LA PERA!!!</p>
+                        <p>Artistacos hasta la médula, Emilio, Fruta y Pere son lo más grande que yo he visto en acción a la hora de inventar, desarrollar, desvariar, descontrolar...</p>
+                        <p>Me encantan sus iniciativas y por supuesto os los recomiendo encarecidamente!!!</p>
+                        <p>A parte de ElEnigmadelaFruta, también tienen en marcha <a href="http://elmelonmolon.com">ElMelónMolón</a>, con el que se dedican a hacer webs molonas visualmente increíbles. Más que competencia les considero aliados, porque siempre que he estado hasta arriba de trabajo, les he derivado proyectos que me salían y siempre lo han bordado.</p>
+                    </div>
+                    
+                    <h3 class="ui-accordion-header">FernandoNavarro</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://www.fisioterapiafernandonavarro.com/">http://www.fisioterapiafernandonavarro.com/</a></p>
+                        <p>Fisioterapeuta de confianza al que he recurrido siempre que me he lesionado.</p>
+                        <p>Gracias a él he recuperado esguinces de tobillo, microrroturas musculares, luxaciones de hombro...</p>
+                        <p>Su centro de fisioterapia está en Madrid cerca del metro de Velazquez y trabaja con las últimas tecnologías que salen al mercado.</p>
+                        <p>De hecho, es de los pocos que ya posee <a href="http://www.fisioterapiafernandonavarro.com/Indiba.html">INDIBA</a>.</p>
+                    </div>
+                    
+                    <h3 class="ui-accordion-header">RasdeRashid</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://rasderashid.com/">http://rasderashid.com/</a><br />
+                        <a href="http://twitter.com/rasderashid">@rasderashid</a></p>
+                        <p>Rashid es magia.</p>
+                        <p>Con solo unos trazos sobre el lienzo consigue que te creas la escena que te muestra.</p>
+                        <p>Una vez incluso me hizo bostezar con un cuadro en el que se veía a una mujer de espaldas haciendo lo propio. Mira que son contagiosos los bostezos!!! xD</p>
+                    </div>
+                    
+                    <h3 class="ui-accordion-header">MercePeris</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://merceperis.wordpress.com/">http://merceperis.wordpress.com/</a></p>
+                        <p>En su rincón del delirio, Merce comparte relatos 100% originales.</p>
+                    </div>
+                    
+                    <h3 class="ui-accordion-header">DiFenders</h3>
+                    <div class="ui-accordion-content">
+                        <p><a href="http://difendersdjs.com/">http://difendersdjs.com/</a><br />
+                            <a href="http://instagram.com/difendersdjs">instagram</a></p>
+                        <p>Los DJs con más barba y buen rollo del panorama nacional.</p>
+                        <p>Apunta sus próximas actuaciones en tu agenda!!</p>
+                    </div>
+                    
+                    </div><!-- id="friends-accordion"-->
+                    <br />
+                    <div class="ui-state-highlight ui-corner-all"><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>Si te conozco y tienes una web chula que no haya incluído en esta lista, avísame!!!</div>
+                </div><!-- id="friends"-->
+                
+                <div id="courses">
+                    <p>Tanto me apasiona aprender como enseñar, e intento hacerlo lo más ameno posible dándole más importancia al razonamiento que a la memorización.</p>
+                    <div id="courses-accordion" class="ui-accordion">
+                    <h3 class="ui-accordion-header">Python</h3>
+                    <div class="ui-accordion-content">
+                        <p>Sin duda alguna mi lenguaje de programación favorito. Es intuitivo, sencillo, dinámico y por tanto permite desarrollar prototipos a una velocidad insuperable.</p>
+                        <p>A través de la <a href="http://delegacion.etsiae.upm.es/">Delegación de Alumnos de la ETSIAE</a> doy un curso orientado a resolver problemas de ingeniería.</p>
+                        <p>¿Tienes feedback?
+                        <ul><li><a href="https://docs.google.com/forms/d/1WlAaLUj3e8uIoOoQhq0_3i8N5BgJ_HQiQZeFN5Qk18o/viewform?usp=send_form">Encuesta curso abril 2015</a></li></ul>
+                        </p>
+                    </div>
+                
+                    <h3 class="ui-accordion-header">HP50g</h3>
+                    <div class="ui-accordion-content">
+                        <p>Esta calculadora es una gran herramienta para resolver problemas de ingeniería complejos durante los exámenes en los que no tienes acceso a un ordenador más potente.</p>
+                        <p>A través de su programación en <a href"http://en.wikipedia.org/wiki/Reverse_Polish_notation" title="Reverse Polish Notation">RPN</a> se pueden desarrollar rutinas que te ayuden a ahorrar tiempo en la resolución de problemas. Un desahogo que permite afrontar los exámenes con algo más de tranquilidad.</p>
+                    </div>
 
-					<h3 class="ui-accordion-header">Asignaturas Técnicas</h3>
-					<div class="ui-accordion-content">
-						<p>También doy clases particulares de asignaturas técnicas para alumnos de secundaria y bachillerato.</p>
-						<p>Matemáticas, Física, Química, Dibujo Técnico, Tecnología... Siempre me han encantado estas asignaturas, e intento transmitir su gran utilidad, pues cuando algo interesa se hace más fácil de entender.</p>
-					</div>
-					</div>
-				</div><!-- id="courses"-->  
-			</div><!-- id="content"-->
-				
-		</div>
-	</body>
+                    <h3 class="ui-accordion-header">Asignaturas Técnicas</h3>
+                    <div class="ui-accordion-content">
+                        <p>También doy clases particulares de asignaturas técnicas para alumnos de secundaria y bachillerato.</p>
+                        <p>Matemáticas, Física, Química, Dibujo Técnico, Tecnología... Siempre me han encantado estas asignaturas, e intento transmitir su gran utilidad, pues cuando algo interesa se hace más fácil de entender.</p>
+                    </div>
+                    </div>
+                </div><!-- id="courses"-->  
+            </div><!-- id="content"-->
+                
+        </div>
+    </body>
 </html>
